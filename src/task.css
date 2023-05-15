@@ -1,0 +1,44 @@
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .word-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .word-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .word {
+    font-weight: bold;
+  }
+  
+  .frequency {
+    font-weight: bold;
+    color: #007bff;
+  }
